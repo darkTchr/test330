@@ -1,0 +1,149 @@
+/*
+自定义： 第五档位
+@media
+*/
+
+
+@media screen and (min-width:1280px){
+    .container {
+        width: 1280px;
+    }
+}
+
+// md以下的 nav 调整
+
+@media screen and (max-width:991px){
+    nav {
+        a {
+            width: 20%;
+            float: left;
+            &:hover {
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+
+header {
+    // background-color: red;
+    // margin-left: -15px;
+    .logo {
+        display: block;
+        background-color: blue;
+        img{
+            // width: 100%;
+            max-width: 100%;
+
+            display: block;
+            margin: 0 auto;
+        }
+
+        div{
+            display: none;
+            height: 50px;
+            color: #fff;
+            line-height: 50px;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+
+    // 导航部分
+
+    nav {
+        border-bottom: 1px solid #222;
+        a {
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            background-color: #ccc;
+            padding-left: 30px;
+            &:hover {
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+.top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+
+    a{
+        display: block;
+        float: left;
+        width: 25%;
+        height: 130px;
+        // background-color: red;
+        position: relative;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+        p{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #000;
+            margin: 0;
+            padding: 5px;
+            color: #fff;
+        }
+
+    }
+
+    
+        // 第一个图
+        a:nth-child(1){
+            width: 50%;
+            height: 260px;
+        }
+
+        // 2,3
+
+        a:nth-child(2) , a:nth-child(3) {
+            border-bottom: 5px solid #fff;
+        }
+        // 4,5
+
+        a:nth-child(4) , a:nth-child(5) {
+            border-top: 5px solid #fff;
+        }
+}
+
+.news {
+    .one {
+        border-bottom: 1px solid #ccc;
+        img {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+}
+
+// 联盟
+
+.lian_m{
+    display: block;
+    img {
+        width: 100%;
+    }
+}
+
+.hot {
+    margin-top: 10px;
+    padding:0 10px;
+    border: 1px solid #ccc;
+
+    button {
+        border-radius:0 ;
+    }
+
+    h4{
+        margin-top: 20px;
+    }
+}

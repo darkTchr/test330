@@ -1,0 +1,109 @@
+/*
+自定义： 第五档位
+@media
+*/
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+@media screen and (max-width: 991px) {
+  nav a {
+    width: 20%;
+    float: left;
+  }
+  nav a:hover {
+    background-color: #fff;
+  }
+}
+header .logo {
+  display: block;
+  background-color: blue;
+}
+header .logo img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+header .logo div {
+  display: none;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+header nav {
+  border-bottom: 1px solid #222;
+}
+header nav a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  background-color: #ccc;
+  padding-left: 30px;
+}
+header nav a:hover {
+  background-color: #fff;
+}
+.top {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.top a {
+  display: block;
+  float: left;
+  width: 25%;
+  height: 130px;
+  position: relative;
+}
+.top a img {
+  width: 100%;
+  height: 100%;
+}
+.top a p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  margin: 0;
+  padding: 5px;
+  color: #fff;
+}
+.top a:nth-child(1) {
+  width: 50%;
+  height: 260px;
+}
+.top a:nth-child(2),
+.top a:nth-child(3) {
+  border-bottom: 5px solid #fff;
+}
+.top a:nth-child(4),
+.top a:nth-child(5) {
+  border-top: 5px solid #fff;
+}
+.news .one {
+  border-bottom: 1px solid #ccc;
+}
+.news .one img {
+  width: 100%;
+  margin-top: 10px;
+}
+.lian_m {
+  display: block;
+}
+.lian_m img {
+  width: 100%;
+}
+.hot {
+  margin-top: 10px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+.hot button {
+  border-radius: 0 ;
+}
+.hot h4 {
+  margin-top: 20px;
+}
